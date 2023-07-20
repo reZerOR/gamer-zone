@@ -4,31 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamer Zone</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-
+    <script
+      src="https://kit.fontawesome.com/d1e45b29ef.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <!-- header section  -->
     <header>
       <!-- nav bar -->
-      <nav>
-        <div>
+      <nav class="navbar">
+        <div class="logo">
           <img src="images/Frame.png" alt="" />
-          <h3><span class="pink">G</span>amer</h3>
+          <h3 class="nav-title"><span class="pink">G</span>amer</h3>
+        </div>
+        <ul>
+          <li>About Us</li>
+          <li>Developer</li>
+          <li class="follow">
+            Follow us on
+            <i class="fa-brands fa-youtube" style="color: #ff0000"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </li>
+        </ul>
+      </nav>
+      <!-- heder content -->
+      <div class="banner">
+        <div>
+          <h3 class="banner-title">Play Like The</h3>
+          <h3 class="banner-large-title">G.O.A.T.</h3>
+          <h5 class="description">1-Click instant play</h5>
+          <h5 class="description">No Download</h5>
+          <h5 class="description">1000s of supported online games</h5>
+          <button class="btn btn-p">Sign In</button>
+          <button class="btn btn-b">Go Rogue</button>
         </div>
         <div>
-          <a href="">About us</a>
-          <a href="">Developers</a>
-          <a href=""
-            >folow us <i class="fa fa-youtube-play"></i
-            ><i class="fa-brands fa-tiktok"></i
-          ></a>
+          <img class="banner-img" src="images/Group 18.png" alt="" />
         </div>
-      </nav>
+      </div>
     </header>
+    <!-- main section  -->
+    <main>
+      <section class="play-game">
+        <div>
+          <h3 class="banner-title">
+            Online Games <span class="text-gradient">Funny Videos</span>
+          </h3>
+          <p class="description">
+            A Collection of Hilarious Videos to Brighten Your Day
+          </p>
+        </div>
+        <div class="play-game-img">
+          <div class="img">
+            <img src="images/Rectangle 4.png" alt="" />
+            <p class="description">
+              No Download. No Installs. Play games Instantly on Gamer.
+            </p>
+          </div>
+          <div class="img">
+            <img src="images/Rectangle 5.png" alt="" />
+            <p class="description">Did you score? #unblockedgames #school</p>
+          </div>
+          <div class="img">
+            <div class="img3">
+              <i class="fa-solid fa-circle-play" style="color: #ffffff"></i>
+              <p class="img3-p">Watch Now</p>
+            </div>
+            <p class="description">Breaking game records like OG</p>
+          </div>
+          <div class="img">
+            <img src="images/Rectangle 6.png" alt="" />
+            <p class="description">
+              Busted gaming on school laptop, but you are still lit.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
